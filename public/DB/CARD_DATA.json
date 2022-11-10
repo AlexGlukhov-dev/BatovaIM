@@ -1,0 +1,21 @@
+[
+  {
+    "_id": 1,
+    "title":  "Лонгслив для малышей",
+    "price": "2120",
+    "available": "Достаточно",
+    "colors": [
+      {"id": 1, "value": "pink", "color": "#ED9FD3"},
+      {"id": 2, "value": "green", "color": "#008000FF"},
+      {"id": 3, "value": "blue", "color": "#1236f8"},
+      {"id": 4, "value": "yellow", "color": "#fff146"},
+      {"id": 5, "value": "white", "color": "#FFFFFF"}
+    ],
+    "sizes": [
+      {"id": 1, "value": "92"},
+      {"id": 2, "value": "98"},
+      {"id": 3, "value": "104"},
+      {"id": 4, "value": "110"}
+    ]
+  }
+]

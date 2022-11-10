@@ -1,0 +1,21 @@
+.main__logo {
+  grid-column: 6/8;
+
+  @media (max-width: (768px)) {
+    grid-column: 3/8;
+    margin-right: 40px;
+  }
+}
+
+.main__logo svg {
+  fill: var(--black-color);
+
+  @media (max-width: (768px)) {
+    width: 78px;
+    height: 49px;
+  }
+}
+
+.main__logo-light svg {
+  fill: var(--light-color);
+}

@@ -1,0 +1,46 @@
+.nav {
+  margin: 0 auto 50px;
+  border-bottom: var(--border-accent);
+  padding-bottom: 20px;
+  width: 100%;
+  max-width: 1360px;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  &__item {
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--black-color);
+
+    svg {
+      transform: translateY(2px);
+    }
+
+    @media (max-width: 768px) {
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+
+  &__btn {
+    color: rgba(0, 0, 0, 0.5);
+
+    &:disabled {
+      cursor: initial;
+    }
+  }
+}
+
+.active {
+  color: var(--black-color);
+}
+
+.registration-modal {
+  height: 385px;
+  max-width: 500px;
+}

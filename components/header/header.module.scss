@@ -1,0 +1,64 @@
+.header-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.header-fixed {
+  position: fixed;
+  z-index: 15;
+  width: 100%;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.05);
+  background-color: transparent;
+}
+
+.header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(12, 1fr);
+  padding-top: 8px;
+  width: 100%;
+}
+
+.header-container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+  height: 100px;
+  //max-width: 1360px;
+  max-width: 1470px;
+
+  //@media (max-width: 1920px) {
+  //  max-width: 1124px;
+  //}
+
+  //@media (max-width: 1366px) {
+  //  max-width: 968px;
+  //}
+
+  @media (max-width: 1024px) {
+    max-width: 680px;
+  }
+
+  @media (max-width: 768px) {
+    height: 80px;
+    max-width: 290px;
+  }
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  grid-column: 8/13;
+  gap: 40px;
+}
+
+.registration-modal {
+  height: 385px;
+  max-width: 500px;
+}
+
+.offer-modal {
+  width: 100%;
+  max-width: 900px;
+}

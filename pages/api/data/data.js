@@ -1,0 +1,2234 @@
+// export const BASE_URL = 'http://92.255.107.119:8080';
+// export const REGISTRATION_URL = '/auth/signup';
+// export const AUTH_URL = '/auth/sign';
+
+export const productData = [
+    {
+        "id": "1",
+        "category": "Платья",
+        "title": "Платья для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "1120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "2",
+        "category": "Платья",
+        "title": "Платья для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "9230",
+        "sale": "30"
+    },
+    {
+        "id": "3",
+        "category": "Платья",
+        "title": "Платья для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2000",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "4",
+        "category": "Платья",
+        "title": "Платья для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2200",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "5",
+        "category": "Платья",
+        "title": "Платья для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "1250",
+        "sale": "30"
+    },
+    {
+        "id": "6",
+        "category": "Платья",
+        "title": "Платья для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "900",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "7",
+        "category": "Футболки",
+        "title": "Футболки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "8",
+        "category": "Футболки",
+        "title": "Футболки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "10120",
+        "sale": "30"
+    },
+    {
+        "id": "9",
+        "category": "Футболки",
+        "title": "Футболки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "1220",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "10",
+        "category": "Футболки",
+        "title": "Футболки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "21120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "11",
+        "category": "Футболки",
+        "title": "Футболки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "11080",
+        "sale": "30"
+    },
+    {
+        "id": "12",
+        "category": "Футболки",
+        "title": "Футболки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "7600",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "13",
+        "category": "Шорты",
+        "title": "Шорты для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "10120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "14",
+        "category": "Шорты",
+        "title": "Шорты для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "3120",
+        "sale": "30"
+    },
+    {
+        "id": "15",
+        "category": "Шорты",
+        "title": "Шорты для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "6120",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "16",
+        "category": "Шорты",
+        "title": "Шорты для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "5120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "17",
+        "category": "Шорты",
+        "title": "Шорты для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "22120",
+        "sale": "30"
+    },
+    {
+        "id": "18",
+        "category": "Шорты",
+        "title": "Шорты для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "1120",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "19",
+        "category": "Брюки",
+        "title": "Брюки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "20",
+        "category": "Брюки",
+        "title": "Брюки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "sale": "30"
+    },
+    {
+        "id": "21",
+        "category": "Брюки",
+        "title": "Брюки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "22",
+        "category": "Брюки",
+        "title": "Брюки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "23",
+        "category": "Брюки",
+        "title": "Брюки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "sale": "30"
+    },
+    {
+        "id": "24",
+        "category": "Толстовки",
+        "title": "Толстовки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "25",
+        "category": "Толстовки",
+        "title": "Толстовки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "sale": "30"
+    },
+    {
+        "id": "26",
+        "category": "Толстовки",
+        "title": "Толстовки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "27",
+        "category": "Толстовки",
+        "title": "Толстовки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "28",
+        "category": "Толстовки",
+        "title": "Толстовки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "sale": "30"
+    },
+    {
+        "id": "29",
+        "category": "Толстовки",
+        "title": "Толстовки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "30",
+        "category": "Головные уборы",
+        "title": "Головные уборы для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "31",
+        "category": "Головные уборы",
+        "title": "Головные уборы для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "sale": "30"
+    },
+    {
+        "id": "32",
+        "category": "Головные уборы",
+        "title": "Головные уборы для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "33",
+        "category": "Головные уборы",
+        "title": "Головные уборы для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "34",
+        "category": "Головные уборы",
+        "title": "Головные уборы для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "sale": "30"
+    },
+    {
+        "id": "35",
+        "category": "Головные уборы",
+        "title": "Головные уборы для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "36",
+        "category": "Limited edition",
+        "title": "Лонгслив для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "37",
+        "category": "Limited edition",
+        "title": "Платья для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "sale": "30"
+    },
+    {
+        "id": "38",
+        "category": "Limited edition",
+        "title": "Головные уборы для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990"
+    },
+    {
+        "id": "39",
+        "category": "Limited edition",
+        "title": "Толстовки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990",
+        "sale": "21"
+    },
+    {
+        "id": "40",
+        "category": "Limited edition",
+        "title": "Брюки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "sale": "30"
+    },
+    {
+        "id": "41",
+        "category": "Limited edition",
+        "title": "Футболки для малышей",
+        "liked": false,
+        "available": "Достаточно",
+        "colors": [
+            {
+                "id": 1,
+                "value": "pink",
+                "color": "#ED9FD3"
+            },
+            {
+                "id": 2,
+                "value": "green",
+                "color": "#008000FF"
+            },
+            {
+                "id": 3,
+                "value": "blue",
+                "color": "#1236f8"
+            },
+            {
+                "id": 4,
+                "value": "yellow",
+                "color": "#fff146"
+            },
+            {
+                "id": 5,
+                "value": "white",
+                "color": "#FFFFFF"
+            }
+        ],
+        "sizes": [
+            {
+                "id": 1,
+                "value": "92"
+            },
+            {
+                "id": 2,
+                "value": "98"
+            },
+            {
+                "id": 3,
+                "value": "104"
+            },
+            {
+                "id": 4,
+                "value": "110"
+            }
+        ],
+        "price": "2120",
+        "oldPrice": "2990"
+    }
+];

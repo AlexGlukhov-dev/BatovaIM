@@ -1,0 +1,16 @@
+.policy {
+  &__main-title {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  &-list {
+    &__item {
+      margin-bottom: 10px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.main-decor-wrapper {
+  position: relative;
+
+  .main-decor_item {
+    position: relative;
+
+    img {
+      object-fit: cover;
+    }
+  }
+}

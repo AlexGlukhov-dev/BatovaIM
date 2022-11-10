@@ -1,0 +1,31 @@
+.footer-wrapper {
+  position: relative;
+}
+
+.footer__decor {
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-56%);
+
+  @media (max-width: 1366px) {
+    top: 0;
+    transform: translateY(50%);
+
+    div {
+      max-width: 210px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    div {
+      max-width: 180px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    div {
+      max-width: 160px;
+    }
+  }
+}

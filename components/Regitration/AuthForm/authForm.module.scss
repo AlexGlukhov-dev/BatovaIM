@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 95%;
+
+  &-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    margin-bottom: 4px;
+    padding: 24px;
+    height: 50px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 20px;
+  }
+}
+
+.submit-btn {
+  margin-bottom: 20px;
+}
+
+.helper-text {
+  margin-bottom: 4px;
+  font-size: 12px;
+  opacity: 0.5;
+}
+
+.error {
+  color: var(--error-color);
+  opacity: 1;
+}
+
+.error-outline {
+  border-color: var(--error-color);
+}

@@ -1,0 +1,30 @@
+.cart-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1360px;
+
+  @media (max-width: 1920px) {
+    max-width: 1124px;
+  }
+
+  @media (max-width: 1366px) {
+    max-width: 860px;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 680px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 15px;
+    max-width: 420px;
+  }
+}
+
+.title {
+  margin-bottom: 70px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 30px;
+  }
+}

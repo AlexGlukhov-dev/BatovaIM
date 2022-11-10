@@ -1,0 +1,37 @@
+.contactsBlock {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  gap: 74px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 130px;
+    height: 2px;
+    background-color: var(--black-color);
+    transform: translateX(-50%);
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
+  }
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    padding-top: 128px;
+
+    &::before,
+    &::after {
+      display: none;
+    }
+  }
+}

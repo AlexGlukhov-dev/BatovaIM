@@ -1,0 +1,23 @@
+.flower-decor {
+  position: relative;
+
+  &__item {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    @media (max-width: 1366px) {
+      width: 214px;
+      height: 205px;
+    }
+
+    @media (max-width: 1366px) {
+      width: 144px;
+      height: 138px;
+    }
+
+    img {
+      object-fit: cover;
+    }
+  }
+}

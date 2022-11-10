@@ -1,0 +1,13 @@
+.title {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -22px;
+    width: 40px;
+    height: 2px;
+    background-color: var(--accent-light-color);
+  }
+}

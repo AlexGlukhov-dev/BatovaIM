@@ -1,0 +1,19 @@
+.public-oferta {
+  &__main-title {
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  &__list-item {
+    margin-bottom: 20px;
+  }
+
+  &__term {
+    font-weight: 700;
+  }
+}

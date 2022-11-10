@@ -1,0 +1,142 @@
+.contacts {
+  position: relative;
+
+  &-container {
+    margin: 0 auto;
+    max-width: 1360px;
+
+    @media (max-width: 1920px) {
+      max-width: 1124px;
+    }
+
+    @media (max-width: 1366px) {
+      max-width: 860px;
+    }
+
+    @media (max-width: 1024px) {
+      max-width: 680px;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 290px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 45px;
+  }
+
+  &__subtitle {
+    margin: 0 0 18px;
+    max-width: 472px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  &__content {
+    margin-bottom: 32px;
+
+    @media (max-width: 768px) {
+      margin-bottom: 0;
+    }
+  }
+
+  &__decor {
+    margin-bottom: 58px;
+    margin-left: 200px;
+
+    div {
+      position: static;
+      width: 180px;
+      height: 180px;
+    }
+
+    @media (max-width: 1366px) {
+      margin-bottom: 40px;
+      margin-left: 460px;
+
+      div {
+        width: 130px;
+        height: 130px;
+      }
+    }
+
+    @media (max-width: 1024px) {
+      margin-bottom: 30px;
+      margin-left: 360px;
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+      left: 70%;
+      margin-left: 0;
+
+      div {
+        position: absolute;
+        width: 160px;
+        height: 160px;
+      }
+    }
+  }
+
+  &__image {
+    position: absolute;
+    right: 0;
+    top: -80px;
+    overflow: hidden;
+    width: 865px;
+    height: 870px;
+
+    &-item {
+      right: -112px;
+
+      @media (max-width: 1920px) {
+        right: -218px;
+        width: 927px;
+        height: 927px;
+      }
+
+      @media (max-width: 1366px) {
+        width: 706px;
+        height: 706px;
+      }
+
+      div {
+        @media (max-width: 1920px) {
+          width: 738px;
+          height: 738px;
+        }
+
+        @media (max-width: 1366px) {
+          top: 140px;
+          width: 510px;
+          height: 510px;
+        }
+      }
+    }
+
+    @media (max-width: 1920px) {
+      width: 720px;
+      height: 830px;
+    }
+
+    @media (max-width: 1366px) {
+      width: 500px;
+      height: 646px;
+    }
+
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+}
+
+.image-border {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: var(--border-accent);
+  border-radius: 100%;
+  width: 927px;
+  height: 927px;
+}

@@ -1,0 +1,115 @@
+.sale {
+  margin: 0 auto;
+  width: 100%;
+
+  &-decor {
+    position: absolute;
+    right: 80px;
+    top: -78px;
+
+    div::before {
+      height: 130px;
+    }
+
+    svg {
+      position: relative;
+      top: 10px;
+    }
+  }
+
+  &-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1360px;
+    gap: 50px;
+
+    &__top {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+      padding-bottom: 50px;
+      width: 100%;
+    }
+  }
+
+  &-list {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 172px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .sale {
+    &-decor {
+      top: -70px;
+
+      svg {
+        top: 0;
+      }
+    }
+
+    &-wrapper {
+      max-width: 1126px;
+    }
+
+    &-list {
+      gap: 104px;
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .sale {
+    &-decor {
+      right: 0;
+    }
+
+    &-wrapper {
+      max-width: 968px;
+    }
+
+    &-list {
+      gap: 116px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .sale {
+    &-decor {
+      right: -40px;
+      top: -50px;
+
+      svg {
+        top: -20px;
+      }
+    }
+
+    &-wrapper {
+      max-width: 680px;
+    }
+
+    &-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 60px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .sale {
+    &-wrapper {
+      max-width: 280px;
+      gap: 25px;
+    }
+
+    &-list {
+      column-gap: 18px;
+      row-gap: 40px;
+    }
+  }
+}

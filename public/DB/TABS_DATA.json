@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Описание",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur beatae consequuntur corporis dignissimos distinctio dolor eos est eum eveniet fugit hic illo ipsa itaque iure laudantium nostrum odit quibusdam quidem quis, quos repellat repellendus reprehenderit repudiandae sint ullam, vel vitae! Ad ea ipsa, libero nihil praesentium quia rem sequi!"
+  },
+  {
+    "title": "Характеристики",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur beatae consequuntur corporis dignissimos distinctio dolor eos est eum eveniet fugit hic illo ipsa itaque iure laudantium nostrum odit quibusdam quidem quis, quos repellat repellendus reprehenderit repudiandae sint ullam, vel vitae! Ad ea ipsa, libero nihil praesentium quia rem sequi!"
+  },
+  {
+    "title": "Уход",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+  },
+  {
+    "title": "Доставка",
+    "content":   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aspernatur beatae consequuntur corporis dignissimos distinctio dolor eos est eum eveniet fugit hic illo ipsa itaque iure laudantium nostrum odit quibusdam quidem quis, quos repellat repellendus reprehenderit repudiandae sint ullam, vel vitae! Ad ea ipsa, libero nihil praesentium quia rem sequi!"
+  }
+]

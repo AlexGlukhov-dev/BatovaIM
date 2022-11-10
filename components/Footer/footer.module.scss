@@ -1,0 +1,312 @@
+.footer-section {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  background-color: var(--accent-color);
+}
+
+.footer {
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    "fl fn fs fb"
+    "fc fn fp fb";
+  grid-template-rows: repeat(3, 1fr);
+  height: 320px;
+
+  &-container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1360px;
+  }
+
+  &__logo {
+    align-self: start;
+    justify-self: start;
+    grid-area: fl;
+    grid-column: 1/6;
+    grid-row: 2/3;
+  }
+
+  &__copyright {
+    align-self: start;
+    justify-self: start;
+    grid-area: fc;
+    grid-column: 1/6;
+    grid-row: 3/4;
+
+    span {
+      font: var(--footer-light);
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  &__nav {
+    justify-self: start;
+    grid-area: fn;
+    grid-column: 7/10;
+    grid-row: 1/4;
+  }
+
+  &__social {
+    align-self: start;
+    justify-self: start;
+    grid-area: fs;
+    grid-column: 10/11;
+    grid-row: 2/3;
+    padding-top: 20px;
+
+    &--vk {
+      margin-right: 20px;
+    }
+
+    a svg {
+      width: 33px;
+      height: 22px;
+    }
+  }
+
+  &__policy {
+    align-self: end;
+    justify-self: start;
+    grid-area: fp;
+    grid-column: 10/11;
+    grid-row: 2/3;
+    width: 180px;
+
+    &-link {
+      font: var(--footer-light);
+      color: rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  &__btn {
+    align-self: center;
+    justify-self: end;
+    grid-area: fb;
+    grid-column: 11/12;
+    grid-row: 1/4;
+  }
+}
+
+@media (max-width: 1920px) {
+  .footer {
+    &-container {
+      max-width: 1124px;
+    }
+
+    &__logo {
+      grid-column: 1/4;
+    }
+
+    &__copyright {
+      grid-column: 1/4;
+    }
+
+    &__nav {
+      grid-column: 4/10;
+    }
+
+    &__social {
+      justify-self: start;
+      grid-column: 10/11;
+    }
+
+    &__policy {
+      justify-self: start;
+      grid-column: 10/11;
+    }
+
+    &__btn {
+      justify-self: end;
+      grid-column: 11/12;
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .footer {
+    &-container {
+      max-width: 968px;
+    }
+
+    &__logo {
+      grid-column: 1/4;
+    }
+
+    &__copyright {
+      grid-column: 1/4;
+    }
+
+    &__nav {
+      grid-column: 4/10;
+    }
+
+    &__btn {
+      align-self: center;
+      justify-self: end;
+      grid-column: 10/11;
+      grid-row: 1/3;
+
+      button {
+        width: 44px;
+        height: 44px;
+
+        svg {
+          width: 28px;
+          height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    grid-template-areas:
+      "fl fn fs"
+      "fc fp fb";
+    padding-top: 40px;
+
+    &-container {
+      max-width: 680px;
+    }
+
+    &__logo {
+      align-self: center;
+      justify-self: start;
+      grid-column: 2/3;
+      grid-row: 1/3;
+    }
+
+    &__nav {
+      align-self: center;
+      justify-self: start;
+      grid-column: 8/11;
+      grid-row: 1/3;
+    }
+
+    &__social {
+      align-self: center;
+      justify-self: center;
+      grid-column: 11/12;
+      grid-row: 1/3;
+      padding-bottom: 90px;
+    }
+
+    &__copyright {
+      align-self: end;
+      justify-self: start;
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+
+    &__policy {
+      align-self: end;
+      justify-self: start;
+      grid-column: 8/11;
+      grid-row: 2/3;
+      width: 240px;
+    }
+
+    &__btn {
+      align-self: end;
+      justify-self: center;
+      grid-column: 11/12;
+      grid-row: 2/3;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    column-gap: 60px;
+    grid-template-areas:
+      "fn fn"
+      "fs fb"
+      "fc fc"
+      "fp fp";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding-top: 34px;
+    height: 450px;
+
+    &-container {
+      max-width: 290px;
+    }
+
+    &__logo {
+      display: none;
+    }
+
+    &__nav {
+      align-self: start;
+      justify-self: center;
+      grid-column: 1/3;
+      grid-row: 1/4;
+    }
+
+    &__social {
+      position: relative;
+      align-self: center;
+      justify-self: center;
+      grid-column: 1/3;
+      grid-row: 4/5;
+      padding-bottom: 0;
+
+      &--vk::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        margin-left: 22px;
+        width: 1px;
+        height: 34px;
+        background-color: var(--light-color);
+      }
+
+      &--pin {
+        margin-left: 20px;
+      }
+
+      a svg {
+        width: 43px;
+        height: 23px;
+      }
+    }
+
+    &__btn {
+      align-self: end;
+      justify-self: start;
+      grid-column: 2/3;
+      grid-row: 4/5;
+
+      button {
+        width: 34px;
+        height: 34px;
+
+        svg {
+          width: 22px;
+          height: 20px;
+        }
+      }
+    }
+
+    &__copyright {
+      align-self: center;
+      justify-self: center;
+      grid-column: 1/3;
+      grid-row: 5/6;
+    }
+
+    &__policy {
+      align-self: start;
+      justify-self: center;
+      grid-column: 1/3;
+      grid-row: 6/7;
+
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+}

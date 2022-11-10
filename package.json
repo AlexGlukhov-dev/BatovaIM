@@ -1,0 +1,43 @@
+{
+  "name": "batova-im",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "next start -p 80",
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "formik": "^2.2.9",
+    "framer-motion": "^6.3.3",
+    "i": "^0.3.7",
+    "next": "12.1.5",
+    "node-sass": "^7.0.1",
+    "normalize.css": "^8.0.1",
+    "npm": "^8.16.0",
+    "react": "18.0.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "18.0.0",
+    "react-redux": "^8.0.1",
+    "react-tabs": "^5.1.0",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.1.4",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5",
+    "moment": "^2.29.3",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recommended-scss": "^4.3.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.4.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}

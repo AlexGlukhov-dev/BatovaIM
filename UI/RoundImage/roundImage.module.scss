@@ -1,0 +1,89 @@
+.round {
+  position: absolute;
+  right: -30px;
+  top: -100px;
+  border: 2px solid var(--accent-light-color);
+  border-radius: 100%;
+  width: 960px;
+  height: 960px;
+
+  &-image {
+    position: absolute;
+    left: 70px;
+    bottom: 34px;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 800px;
+    object-fit: cover;
+
+    img {
+      border-radius: 100%;
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .round {
+    right: -130px;
+    top: -100px;
+    width: 926px;
+    height: 926px;
+
+    &-image {
+      left: 50px;
+      bottom: 34px;
+      max-width: 738px;
+      max-height: 738px;
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .round {
+    right: -80px;
+    top: -20px;
+    width: 640px;
+    height: 640px;
+
+    &-image {
+      left: 30px;
+      bottom: 30px;
+      max-width: 500px;
+      max-height: 500px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .round {
+    right: -340px;
+    top: 20px;
+    width: 680px;
+    height: 680px;
+
+    &-image {
+      left: 10px;
+      bottom: 160px;
+      max-width: 320px;
+      max-height: 320px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .round {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 260px;
+    height: 260px;
+
+    &-image {
+      left: 0;
+      bottom: 0;
+      max-width: 260px;
+      max-height: 260px;
+    }
+  }
+}

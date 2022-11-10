@@ -1,0 +1,58 @@
+.personal-cabinet {
+  &__head {
+    width: 100%;
+    background-color: #f6efdf;
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0 auto 90px;
+      padding-top: 34px;
+      width: 100%;
+      max-width: 1360px;
+      gap: 70px;
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  .personal-cabinet {
+    &__head {
+      &-wrapper {
+        max-width: 1124px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1366px) {
+  .personal-cabinet {
+    &__head {
+      &-wrapper {
+        max-width: 860px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .personal-cabinet {
+    &__head {
+      &-wrapper {
+        max-width: 680px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .personal-cabinet {
+    &__head {
+      &-wrapper {
+        padding-top: 0;
+        max-width: 280px;
+      }
+    }
+  }
+}

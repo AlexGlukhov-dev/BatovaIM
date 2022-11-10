@@ -1,0 +1,65 @@
+.sort-price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  &__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  &__icon:hover {
+    svg {
+      transform: rotate(180deg);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  &__icon-reverse:hover {
+    svg {
+      transform: rotate(0deg);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  &__icon {
+    svg {
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  &__icon-reverse {
+    svg {
+      transform: rotate(180deg);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  &__mob-icon {
+    position: absolute;
+    right: 0;
+    top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    padding: 9px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    svg {
+      fill: var(--black-color);
+    }
+  }
+
+  &__mob-icon-asc {
+    background-color: var(--accent-light-color);
+    transition: all 0.3s ease-in-out;
+
+    svg {
+      fill: var(--light-color);
+    }
+  }
+}
